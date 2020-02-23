@@ -10,9 +10,7 @@ import Foundation
 import SwiftUI
 
 struct CardView: View {
-    
     @Binding var titleText: String
-    
     var body: some View {
         VStack(alignment: .leading) {
             Text(titleText)

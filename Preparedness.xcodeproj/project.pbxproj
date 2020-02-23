@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -112,6 +112,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EC1487F2402FE9800EBC6D2 /* Build configuration list for PBXNativeTarget "Preparedness" */;
 			buildPhases = (
+				9EC1488C24031F1500EBC6D2 /* Run Mint */,
 				9EC148672402FE9600EBC6D2 /* Sources */,
 				9EC148682402FE9600EBC6D2 /* Frameworks */,
 				9EC148692402FE9600EBC6D2 /* Resources */,
@@ -119,8 +120,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				9EC1488F240326AB00EBC6D2 /* PBXTargetDependency */,
 			);
 			name = Preparedness;
+			packageProductDependencies = (
+			);
 			productName = Preparedness;
 			productReference = 9EC1486B2402FE9600EBC6D2 /* Preparedness.app */;
 			productType = "com.apple.product-type.application";
@@ -149,6 +153,9 @@
 				Base,
 			);
 			mainGroup = 9EC148622402FE9600EBC6D2;
+			packageReferences = (
+				9EC1488D2403209800EBC6D2 /* XCRemoteSwiftPackageReference "Mint" */,
+			);
 			productRefGroup = 9EC1486C2402FE9600EBC6D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -171,6 +178,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9EC1488C24031F1500EBC6D2 /* Run Mint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Mint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Install & run SwiftLint\nmint run realm/SwiftLint@0.39.1\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9EC148672402FE9600EBC6D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -185,6 +213,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EC1488F240326AB00EBC6D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 9EC1488E240326AB00EBC6D2 /* mint */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9EC148792402FE9800EBC6D2 /* LaunchScreen.storyboard */ = {
@@ -374,6 +409,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9EC1488D2403209800EBC6D2 /* XCRemoteSwiftPackageReference "Mint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yonaskolb/Mint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9EC1488E240326AB00EBC6D2 /* mint */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EC1488D2403209800EBC6D2 /* XCRemoteSwiftPackageReference "Mint" */;
+			productName = mint;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EC148632402FE9600EBC6D2 /* Project object */;
 }
