@@ -195,7 +195,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Install & run SwiftLint\nmint run realm/SwiftLint@0.39.1\n";
+			shellScript = "# Install & run SwiftLint\nmint run realm/SwiftLint@0.39.1\nmint run nicklockwood/SwiftFormat@0.44.3 --lint --lenient --swiftversion 5.1 .\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
