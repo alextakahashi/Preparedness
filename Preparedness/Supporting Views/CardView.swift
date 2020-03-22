@@ -9,6 +9,11 @@
 import Foundation
 import SwiftUI
 
+/**
+ A `CardView` has:
+    - a title string
+    - 0 or more row items, each with an image and assiciated text
+ */
 struct CardView: View {
     @Binding var titleText: String
     var body: some View {
