@@ -112,6 +112,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EC1487F2402FE9800EBC6D2 /* Build configuration list for PBXNativeTarget "Preparedness" */;
 			buildPhases = (
+				9E0D578A242801A000B53506 /* ShellScript */,
 				9EC148672402FE9600EBC6D2 /* Sources */,
 				9EC148682402FE9600EBC6D2 /* Frameworks */,
 				9EC148692402FE9600EBC6D2 /* Resources */,
@@ -170,6 +171,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E0D578A242801A000B53506 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nif command -v mint; then\n    mint run swiftlint\n    mint run swiftformat --lint --lenient --swiftversion 5.1\nelse \n    echo \"Mint not installed, run bootstrap.sh!\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9EC148672402FE9600EBC6D2 /* Sources */ = {
