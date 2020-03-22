@@ -10,6 +10,7 @@ import Foundation
 import SwiftUI
 
 struct FamilyPlanView: View {
+    
     var body: some View {
         Text("Family Plan")
     }

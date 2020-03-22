@@ -15,7 +15,9 @@ import SwiftUI
     - 0 or more row items, each with an image and assiciated text
  */
 struct CardView: View {
+    
     @Binding var titleText: String
+    
     var body: some View {
         VStack(alignment: .leading) {
             Text(titleText)
