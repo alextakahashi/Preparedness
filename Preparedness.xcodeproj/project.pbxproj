@@ -15,6 +15,10 @@
 		9EC1487B2402FE9800EBC6D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC148792402FE9800EBC6D2 /* LaunchScreen.storyboard */; };
 		9EC1488424030C7B00EBC6D2 /* FamilyPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1488324030C7B00EBC6D2 /* FamilyPlanView.swift */; };
 		9EC1488824030FC900EBC6D2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1488724030FC900EBC6D2 /* CardView.swift */; };
+		9ECE395B24281B47007BB56B /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE395A24281B47007BB56B /* Plan.swift */; };
+		9ECE395D24281C33007BB56B /* PlanListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE395C24281C33007BB56B /* PlanListItem.swift */; };
+		9ECE3963242830EB007BB56B /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE3962242830EB007BB56B /* Color+Palette.swift */; };
+		9ECE39652428325F007BB56B /* PlanIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE39642428325F007BB56B /* PlanIconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		9EC1487C2402FE9800EBC6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EC1488324030C7B00EBC6D2 /* FamilyPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyPlanView.swift; sourceTree = "<group>"; };
 		9EC1488724030FC900EBC6D2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9ECE395A24281B47007BB56B /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		9ECE395C24281C33007BB56B /* PlanListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListItem.swift; sourceTree = "<group>"; };
+		9ECE3962242830EB007BB56B /* Color+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Palette.swift"; sourceTree = "<group>"; };
+		9ECE39642428325F007BB56B /* PlanIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanIconView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,8 @@
 		9EC1486D2402FE9600EBC6D2 /* Preparedness */ = {
 			isa = PBXGroup;
 			children = (
+				9ECE3961242830DB007BB56B /* Extensions */,
+				9ECE395924281B29007BB56B /* Models */,
 				9EC1488624030FB200EBC6D2 /* Supporting Views */,
 				9EC1488524030CBB00EBC6D2 /* Home */,
 				9EC1488224030C6400EBC6D2 /* Family Plan */,
@@ -101,8 +111,26 @@
 			isa = PBXGroup;
 			children = (
 				9EC1488724030FC900EBC6D2 /* CardView.swift */,
+				9ECE39642428325F007BB56B /* PlanIconView.swift */,
 			);
 			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		9ECE395924281B29007BB56B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9ECE395A24281B47007BB56B /* Plan.swift */,
+				9ECE395C24281C33007BB56B /* PlanListItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9ECE3961242830DB007BB56B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9ECE3962242830EB007BB56B /* Color+Palette.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,11 +225,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ECE395B24281B47007BB56B /* Plan.swift in Sources */,
 				9EC1486F2402FE9600EBC6D2 /* AppDelegate.swift in Sources */,
+				9ECE395D24281C33007BB56B /* PlanListItem.swift in Sources */,
 				9EC148712402FE9600EBC6D2 /* SceneDelegate.swift in Sources */,
+				9ECE39652428325F007BB56B /* PlanIconView.swift in Sources */,
 				9EC148732402FE9600EBC6D2 /* MainPage.swift in Sources */,
 				9EC1488424030C7B00EBC6D2 /* FamilyPlanView.swift in Sources */,
 				9EC1488824030FC900EBC6D2 /* CardView.swift in Sources */,
+				9ECE3963242830EB007BB56B /* Color+Palette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

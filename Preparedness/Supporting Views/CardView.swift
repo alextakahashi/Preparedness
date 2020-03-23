@@ -16,29 +16,45 @@ import SwiftUI
  */
 struct CardView: View {
     
-    @Binding var titleText: String
+    var plan: Plan
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(titleText)
-                .font(.headline)
             HStack(alignment: .center) {
-                Image(systemName: "folder")
-                Text("Local")
+                PlanIconView(icon: self.plan.icon, accentColor: self.plan.accentColor)
+                    .frame(width: 20.5, height: 20.5)
+                Text(plan.title)
+                    .font(.headline)
             }
-            HStack {
-                Image(systemName: "folder")
-                Text("Out of State")
+            ForEach(plan.items, id: \.self) { item in
+                HStack(alignment: .center) {
+                    PlanIconView(icon: item.icon, accentColor: Color.gray)
+                        .frame(width: 20.5, height: 20.5)
+                    Text(item.title)
+                }
+                .padding(.leading)
             }
         }
         .padding()
-        .background(Color.gray)
+        .background(Color.white)
         .cornerRadius(10)
     }
 }
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(titleText: .constant("Emergency Contacts"))
+        ZStack {
+            // Set the preview background color so we can see
+            Color.primaryBackground
+            CardView(plan:
+                Plan(title: "Emergency Contacts",
+                     accentColor: .red,
+                     iconName: "exclamationmark.triangle.fill",
+                     items: [
+                    PlanListItem(title: "Local", iconName: "folder"),
+                    PlanListItem(title: "Out of State", iconName: "folder")
+                ])
+            )
+        }
     }
 }
