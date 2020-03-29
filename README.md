@@ -38,3 +38,9 @@ Allow a user to specify various things (foodstuffs, equipment, etc.) to prepare 
 ### Maps
 
 - Live maps (what exactly do we show on there?)
+
+---
+
+### Sketches
+
+* ![Preparedness App Sketch](spec/PreparednessAppSketch.jpg)
