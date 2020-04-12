@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,6 @@
 		9EB347C32443A2B4004A46A5 /* PreparednessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB347C22443A2B4004A46A5 /* PreparednessTests.swift */; };
 		9EB347CE2443A2B4004A46A5 /* PreparednessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB347CD2443A2B4004A46A5 /* PreparednessUITests.swift */; };
 		9EBFCD062443CED800461E48 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBFCD052443CED800461E48 /* MainTabBarController.swift */; };
-		9EBFCD092443D5C500461E48 /* IGListKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9EBFCD082443D5C500461E48 /* IGListKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EBFCD092443D5C500461E48 /* IGListKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +147,6 @@
 			dependencies = (
 			);
 			name = Preparedness;
-			packageProductDependencies = (
-				9EBFCD082443D5C500461E48 /* IGListKit */,
-			);
 			productName = Preparedness;
 			productReference = 9EB347A62443A2AE004A46A5 /* Preparedness.app */;
 			productType = "com.apple.product-type.application";
@@ -224,9 +219,6 @@
 				Base,
 			);
 			mainGroup = 9EB3479D2443A2AE004A46A5;
-			packageReferences = (
-				9EBFCD072443D5C500461E48 /* XCRemoteSwiftPackageReference "IGListKit" */,
-			);
 			productRefGroup = 9EB347A72443A2AE004A46A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -594,25 +586,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		9EBFCD072443D5C500461E48 /* XCRemoteSwiftPackageReference "IGListKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Instagram/IGListKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		9EBFCD082443D5C500461E48 /* IGListKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9EBFCD072443D5C500461E48 /* XCRemoteSwiftPackageReference "IGListKit" */;
-			productName = IGListKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EB3479E2443A2AE004A46A5 /* Project object */;
 }
