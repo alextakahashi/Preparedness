@@ -43,4 +43,5 @@ Allow a user to specify various things (foodstuffs, equipment, etc.) to prepare 
 
 ### Sketches
 
+* ![App Sketch](spec/2020_04_12_PreparednessSketch.jpg)
 * ![Preparedness App Sketch](spec/PreparednessAppSketch.jpg)
