@@ -13,7 +13,7 @@ class MainTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupNavigationBar()
         let firstViewController = FirstViewController()
         firstViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
         
@@ -21,5 +21,17 @@ class MainTabBarController: UITabBarController {
         secondViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
         
         viewControllers = [firstViewController, secondViewController]
+    }
+    
+    private func setupNavigationBar() {
+        // Source: https://stackoverflow.com/questions/39955353/how-to-add-a-standard-info-button-to-a-navigation-bar-in-ios
+        let infoButton = UIButton(type: .infoLight)
+        infoButton.addTarget(self, action: #selector(didTapSettingsBarButton), for: .touchUpInside)
+        let barButton = UIBarButtonItem(customView: infoButton)
+        self.navigationItem.rightBarButtonItem = barButton
+    }
+    
+    @objc private func didTapSettingsBarButton() {
+        print("Selected!") // TODO: Add Settings Handling
     }
 }
