@@ -32,7 +32,7 @@ class MainTabBarController: UITabBarController {
     }
     
     @objc private func didTapSettingsBarButton() {
-        let vc = SettingsViewController();
+        let vc = SettingsViewController()
         let navController = UINavigationController(rootViewController: vc)
         self.present(navController, animated: true, completion: nil)
     }
