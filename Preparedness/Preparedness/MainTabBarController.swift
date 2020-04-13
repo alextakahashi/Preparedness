@@ -32,6 +32,8 @@ class MainTabBarController: UITabBarController {
     }
     
     @objc private func didTapSettingsBarButton() {
-        print("Selected!") // TODO: Add Settings Handling
+        let vc = SettingsViewController();
+        let navController = UINavigationController(rootViewController: vc)
+        self.present(navController, animated: true, completion: nil)
     }
 }
