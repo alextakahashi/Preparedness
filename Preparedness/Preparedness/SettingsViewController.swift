@@ -11,9 +11,28 @@ import UIKit
 
 class SettingsViewController: UIViewController {
     
+    private var collectionView: UICollectionView
+    
+    init() {
+        let layout = UICollectionViewFlowLayout()
+        self.collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        self.collectionView.backgroundColor = UIColor.red
+        super.init(nibName: nil, bundle: nil)
+        self.view.addSubview(collectionView)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super .viewDidLoad()
         setupNavigationBar()
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        collectionView.frame = self.view.frame
     }
     
     private func setupNavigationBar() {
