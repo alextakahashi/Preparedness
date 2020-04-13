@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if #available(iOS 13, *) {} else {
             window = UIWindow(frame: UIScreen.main.bounds)
-            window?.rootViewController = MainTabBarController()
+            let navController = UINavigationController(rootViewController: MainTabBarController())
+            window?.rootViewController = navController
             
             window?.makeKeyAndVisible()
         }
