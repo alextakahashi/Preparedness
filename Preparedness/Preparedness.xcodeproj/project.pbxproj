@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E51B7B92443E74400E6DC32 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51B7B82443E74400E6DC32 /* SettingsViewController.swift */; };
 		9EB347AA2443A2AE004A46A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB347A92443A2AE004A46A5 /* AppDelegate.swift */; };
 		9EB347AC2443A2AE004A46A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB347AB2443A2AE004A46A5 /* SceneDelegate.swift */; };
 		9EB347AE2443A2AE004A46A5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB347AD2443A2AE004A46A5 /* FirstViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E51B7B82443E74400E6DC32 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		9EB347A62443A2AE004A46A5 /* Preparedness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preparedness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB347A92443A2AE004A46A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EB347AB2443A2AE004A46A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				9EB347AB2443A2AE004A46A5 /* SceneDelegate.swift */,
 				9EB347AD2443A2AE004A46A5 /* FirstViewController.swift */,
 				9EB347AF2443A2AE004A46A5 /* SecondViewController.swift */,
+				9E51B7B82443E74400E6DC32 /* SettingsViewController.swift */,
 				9EBFCD052443CED800461E48 /* MainTabBarController.swift */,
 				9EB347B42443A2B4004A46A5 /* Assets.xcassets */,
 				9EB347B62443A2B4004A46A5 /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 				9EBFCD062443CED800461E48 /* MainTabBarController.swift in Sources */,
 				9EB347AA2443A2AE004A46A5 /* AppDelegate.swift in Sources */,
 				9EB347AC2443A2AE004A46A5 /* SceneDelegate.swift in Sources */,
+				9E51B7B92443E74400E6DC32 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
