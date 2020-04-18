@@ -14,13 +14,23 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
-        let firstViewController = FirstViewController()
-        firstViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
         
-        let secondViewController = SecondViewController()
-        secondViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
+        let homeVC = FirstViewController()
+        homeVC.tabBarItem = UITabBarItem(title: "Home", image: #imageLiteral(resourceName: "home.pdf"), tag: 0)
         
-        viewControllers = [firstViewController, secondViewController]
+        let earthquakeVC = SecondViewController()
+        earthquakeVC.tabBarItem = UITabBarItem(title: "Earthquake", image: #imageLiteral(resourceName: "earthquake"), tag: 1)
+        
+        let fireVC = SecondViewController()
+        fireVC.tabBarItem = UITabBarItem(title: "Fire", image: #imageLiteral(resourceName: "fire"), tag: 2)
+        
+        let heatwaveVC = SecondViewController()
+        heatwaveVC.tabBarItem = UITabBarItem(title: "Heatwave", image: #imageLiteral(resourceName: "heat"), tag: 3)
+        
+        let pandemicVC = SecondViewController()
+        pandemicVC.tabBarItem = UITabBarItem(title: "Pandemic", image: #imageLiteral(resourceName: "pandemic"), tag: 4)
+        
+        viewControllers = [homeVC, earthquakeVC, fireVC, heatwaveVC, pandemicVC]
     }
     
     private func setupNavigationBar() {
