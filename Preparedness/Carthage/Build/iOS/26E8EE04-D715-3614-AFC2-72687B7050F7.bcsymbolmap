@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
 Apple clang version 11.0.3 (clang-1103.0.32.29)
-/Users/sebastian/Library/Caches/org.carthage.CarthageKit/DerivedData/11.4_11E146/IGListKit/4.0.0/Build/Intermediates.noindex/ArchiveIntermediates/IGListKit/IntermediateBuildFilesPath/IGListKit.build/Release-iphoneos/IGListKit.build/DerivedSources/IGListKit_vers.c
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit
+/Users/rosachen/Library/Caches/org.carthage.CarthageKit/DerivedData/11.4_11E146/IGListKit/4.0.0/Build/Intermediates.noindex/ArchiveIntermediates/IGListKit/IntermediateBuildFilesPath/IGListKit.build/Release-iphoneos/IGListKit.build/DerivedSources/IGListKit_vers.c
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit
 -[IGListSingleSectionController initWithCellClass:configureBlock:sizeBlock:]
 -[IGListSingleSectionController initWithNibName:bundle:configureBlock:sizeBlock:]
 -[IGListSingleSectionController initWithStoryboardCellIdentifier:configureBlock:sizeBlock:]
@@ -56,7 +56,7 @@ __OBJC_$_INSTANCE_VARIABLES_IGListSingleSectionController
 __OBJC_$_PROP_LIST_IGListSingleSectionController
 __OBJC_CLASS_RO_$_IGListSingleSectionController
 _OBJC_LABEL_CLASS_$
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListSingleSectionController.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListSingleSectionController.m
 Source/IGListKit/IGListSingleSectionController.m
 Source/IGListKit/IGListSingleSectionController.h
 -[IGListBatchUpdates init]
@@ -90,7 +90,7 @@ _OBJC_IVAR_$_IGListBatchUpdates._itemCompletionBlocks
 __OBJC_$_INSTANCE_VARIABLES_IGListBatchUpdates
 __OBJC_$_PROP_LIST_IGListBatchUpdates
 __OBJC_CLASS_RO_$_IGListBatchUpdates
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListBatchUpdates.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListBatchUpdates.m
 Source/IGListKit/Internal/IGListBatchUpdates.m
 Source/IGListKit/Internal/IGListBatchUpdates.h
 -[IGListGenericSectionController didUpdateToObject:]
@@ -102,24 +102,24 @@ __OBJC_$_INSTANCE_METHODS_IGListGenericSectionController
 __OBJC_$_INSTANCE_VARIABLES_IGListGenericSectionController
 __OBJC_$_PROP_LIST_IGListGenericSectionController
 __OBJC_CLASS_RO_$_IGListGenericSectionController
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListGenericSectionController.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListGenericSectionController.m
 Source/IGListKit/IGListGenericSectionController.m
 Source/IGListKit/IGListGenericSectionController.h
 -[UICollectionView(IGListBatchUpdateData) ig_applyBatchUpdateData:]
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UICollectionView_$_IGListBatchUpdateData
 __OBJC_$_CATEGORY_UICollectionView_$_IGListBatchUpdateData
 _OBJC_LABEL_CATEGORY_$
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/UICollectionView+IGListBatchUpdateData.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/UICollectionView+IGListBatchUpdateData.m
 Source/IGListKit/Internal/UICollectionView+IGListBatchUpdateData.m
 -[UICollectionView(DebugDescription) debugDescriptionLines]
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UICollectionView_$_DebugDescription
 __OBJC_$_CATEGORY_UICollectionView_$_DebugDescription
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/UICollectionView+DebugDescription.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/UICollectionView+DebugDescription.m
 Source/IGListKit/Internal/UICollectionView+DebugDescription.m
 -[IGListAdapterUpdater(DebugDescription) debugDescriptionLines]
 __OBJC_$_CATEGORY_INSTANCE_METHODS_IGListAdapterUpdater_$_DebugDescription
 __OBJC_$_CATEGORY_IGListAdapterUpdater_$_DebugDescription
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListAdapterUpdater+DebugDescription.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListAdapterUpdater+DebugDescription.m
 Source/IGListKit/Internal/IGListAdapterUpdater+DebugDescription.m
 -[IGListReloadIndexPath initWithFromIndexPath:toIndexPath:]
 -[IGListReloadIndexPath fromIndexPath]
@@ -132,7 +132,7 @@ _OBJC_IVAR_$_IGListReloadIndexPath._toIndexPath
 __OBJC_$_INSTANCE_VARIABLES_IGListReloadIndexPath
 __OBJC_$_PROP_LIST_IGListReloadIndexPath
 __OBJC_CLASS_RO_$_IGListReloadIndexPath
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListReloadIndexPath.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListReloadIndexPath.m
 Source/IGListKit/Internal/IGListReloadIndexPath.m
 Source/IGListKit/Internal/IGListReloadIndexPath.h
 -[IGListSectionControllerThreadContext viewController]
@@ -217,7 +217,7 @@ _OBJC_SELECTOR_REFERENCES_.123
 _OBJC_SELECTOR_REFERENCES_.125
 _OBJC_CLASSLIST_REFERENCES_$_.126
 _OBJC_SELECTOR_REFERENCES_.128
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListSectionController.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListSectionController.m
 Source/IGListKit/IGListSectionController.m
 Source/IGListKit/IGListSectionController.h
 Source/IGListKit/Internal/IGListSectionControllerInternal.h
@@ -227,7 +227,7 @@ IGListSectionControllerPushThread
 -[IGListSectionMap(DebugDescription) debugDescriptionLines]
 __OBJC_$_CATEGORY_INSTANCE_METHODS_IGListSectionMap_$_DebugDescription
 __OBJC_$_CATEGORY_IGListSectionMap_$_DebugDescription
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListSectionMap+DebugDescription.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListSectionMap+DebugDescription.m
 Source/IGListKit/Internal/IGListSectionMap+DebugDescription.m
 -[IGListCollectionView initWithFrame:]
 -[IGListCollectionView initWithFrame:listCollectionViewLayout:]
@@ -278,7 +278,7 @@ _OBJC_SELECTOR_REFERENCES_.85
 __OBJC_METACLASS_RO_$_IGListCollectionView
 __OBJC_$_INSTANCE_METHODS_IGListCollectionView
 __OBJC_CLASS_RO_$_IGListCollectionView
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListCollectionView.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListCollectionView.m
 Source/IGListKit/IGListCollectionView.m
 -[IGListAdapterProxy initWithCollectionViewTarget:scrollViewTarget:interceptor:]
 -[IGListAdapterProxy respondsToSelector:]
@@ -303,7 +303,7 @@ _OBJC_SELECTOR_REFERENCES_.41
 _OBJC_SELECTOR_REFERENCES_.43
 _OBJC_SELECTOR_REFERENCES_.45
 _OBJC_SELECTOR_REFERENCES_.47
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListAdapterProxy.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListAdapterProxy.m
 Source/IGListKit/Internal/IGListAdapterProxy.m
 isInterceptedSelector
 -[IGListAdapter(UICollectionView) numberOfSectionsInCollectionView:]
@@ -391,7 +391,7 @@ __OBJC_LABEL_PROTOCOL_$_IGListCollectionViewDelegateLayout
 __OBJC_CATEGORY_PROTOCOLS_$_IGListAdapter_$_UICollectionView
 __OBJC_$_PROP_LIST_IGListAdapter_$_UICollectionView
 __OBJC_$_CATEGORY_IGListAdapter_$_UICollectionView
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListAdapter+UICollectionView.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListAdapter+UICollectionView.m
 Source/IGListKit/Internal/IGListAdapter+UICollectionView.m
 -[IGListCollectionViewLayoutInvalidationContext ig_invalidateSupplementaryAttributes]
 -[IGListCollectionViewLayoutInvalidationContext setIg_invalidateSupplementaryAttributes:]
@@ -494,7 +494,7 @@ _OBJC_SELECTOR_REFERENCES_.244
 _OBJC_CLASSLIST_REFERENCES_$_.246
 _OBJC_SELECTOR_REFERENCES_.248
 _OBJC_SELECTOR_REFERENCES_.250
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListCollectionViewLayout.mm
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListCollectionViewLayout.mm
 ~__vector_base
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector
 deallocate
@@ -603,7 +603,7 @@ __OBJC_METACLASS_RO_$_IGListReloadDataUpdater
 __OBJC_$_INSTANCE_METHODS_IGListReloadDataUpdater
 __OBJC_$_PROP_LIST_IGListReloadDataUpdater
 __OBJC_CLASS_RO_$_IGListReloadDataUpdater
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListReloadDataUpdater.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListReloadDataUpdater.m
 Source/IGListKit/IGListReloadDataUpdater.m
 -[IGListBindingSectionController(DebugDescription) debugDescription]
 -[IGListBindingSectionController(DebugDescription) debugDescriptionLines]
@@ -611,7 +611,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.1
 _OBJC_SELECTOR_REFERENCES_.3
 __OBJC_$_CATEGORY_INSTANCE_METHODS_IGListBindingSectionController_$_DebugDescription
 __OBJC_$_CATEGORY_IGListBindingSectionController_$_DebugDescription
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListBindingSectionController+DebugDescription.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListBindingSectionController+DebugDescription.m
 Source/IGListKit/Internal/IGListBindingSectionController+DebugDescription.m
 -[IGListWorkingRangeHandler initWithWorkingRangeSize:]
 -[IGListWorkingRangeHandler willDisplayItemAtIndexPath:forListAdapter:]
@@ -631,7 +631,7 @@ _OBJC_IVAR_$_IGListWorkingRangeHandler._workingRangeSize
 __OBJC_$_INSTANCE_VARIABLES_IGListWorkingRangeHandler
 __OBJC_$_PROP_LIST_IGListWorkingRangeHandler
 __OBJC_CLASS_RO_$_IGListWorkingRangeHandler
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListWorkingRangeHandler.mm
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListWorkingRangeHandler.mm
 ~__hash_table
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__hash_table
 ~unique_ptr
@@ -747,7 +747,7 @@ ___clang_at_available_requires_core_foundation_framework
 ___clang_at_available_requires_core_foundation_framework.cold.1
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UIScrollView_$_IGListKit
 __OBJC_$_CATEGORY_UIScrollView_$_IGListKit
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/UIScrollView+IGListKit.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/UIScrollView+IGListKit.m
 Source/IGListKit/Internal/UIScrollView+IGListKit.m
 -[IGListBindingSectionController updateAnimated:completion:]
 ___Block_byref_object_copy_
@@ -805,7 +805,7 @@ _OBJC_SELECTOR_REFERENCES_.129
 _OBJC_SELECTOR_REFERENCES_.131
 _OBJC_SELECTOR_REFERENCES_.133
 _OBJC_SELECTOR_REFERENCES_.135
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListBindingSectionController.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListBindingSectionController.m
 Source/IGListKit/IGListBindingSectionController.m
 Source/IGListKit/IGListBindingSectionController.h
 __destroy_helper_block_e8_32s40s
@@ -838,7 +838,7 @@ _OBJC_IVAR_$_IGListDisplayHandler._visibleViewObjectMap
 __OBJC_$_INSTANCE_VARIABLES_IGListDisplayHandler
 __OBJC_$_PROP_LIST_IGListDisplayHandler
 __OBJC_CLASS_RO_$_IGListDisplayHandler
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListDisplayHandler.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListDisplayHandler.m
 Source/IGListKit/Internal/IGListDisplayHandler.m
 Source/IGListKit/Internal/IGListDisplayHandler.h
 -[IGListSectionMap initWithMapTable:]
@@ -880,7 +880,7 @@ _OBJC_IVAR_$_IGListSectionMap._mObjects
 __OBJC_$_INSTANCE_VARIABLES_IGListSectionMap
 __OBJC_$_PROP_LIST_IGListSectionMap
 __OBJC_CLASS_RO_$_IGListSectionMap
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListSectionMap.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListSectionMap.m
 Source/IGListKit/Internal/IGListSectionMap.m
 __25-[IGListSectionMap reset]_block_invoke
 __destroy_helper_block_e8_32s40s48s56s
@@ -893,7 +893,7 @@ __57-[IGListSectionMap updateWithObjects:sectionControllers:]_block_invoke
 __OBJC_$_CLASS_METHODS_IGListDebugger
 __OBJC_METACLASS_RO_$_IGListDebugger
 __OBJC_CLASS_RO_$_IGListDebugger
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListDebugger.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListDebugger.m
 Source/IGListKit/Internal/IGListDebugger.m
 -[IGListAdapterUpdater init]
 -[IGListAdapterUpdater hasChanges]
@@ -1098,7 +1098,7 @@ ___block_descriptor_48_e8_32s40s_e12_v24?0Q8^B16l
 _OBJC_SELECTOR_REFERENCES_.396
 _OBJC_SELECTOR_REFERENCES_.397
 _OBJC_SELECTOR_REFERENCES_.398
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListAdapterUpdater.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListAdapterUpdater.m
 __convertSectionReloadToItemUpdates_block_invoke
 Source/IGListKit/IGListAdapterUpdater.m
 Source/IGListKit/Internal/IGListAdapterUpdaterInternal.h
@@ -1142,7 +1142,7 @@ __67-[IGListAdapterUpdater performBatchUpdatesWithCollectionViewBlock:]_block_in
 __67-[IGListAdapterUpdater performBatchUpdatesWithCollectionViewBlock:]_block_invoke
 __copy_helper_block_e8_32s40s
 __65-[IGListAdapterUpdater performReloadDataWithCollectionViewBlock:]_block_invoke
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListDebuggingUtilities.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListDebuggingUtilities.m
 IGListDebugIndentedLines
 Source/IGListKit/Internal/IGListDebuggingUtilities.m
 IGListDebugBOOL
@@ -1458,7 +1458,7 @@ _OBJC_SELECTOR_REFERENCES_.647
 _OBJC_SELECTOR_REFERENCES_.649
 _OBJC_CLASSLIST_REFERENCES_$_.650
 _OBJC_SELECTOR_REFERENCES_.655
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListAdapter.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/IGListAdapter.m
 Source/IGListKit/IGListAdapter.m
 Source/IGListKit/Internal/IGListAdapterInternal.h
 Source/IGListKit/IGListAdapter.h
@@ -1495,12 +1495,12 @@ __51-[IGListAdapter performUpdatesAnimated:completion:]_block_invoke
 -[IGListAdapter(DebugDescription) debugDescriptionLines]
 __OBJC_$_CATEGORY_INSTANCE_METHODS_IGListAdapter_$_DebugDescription
 __OBJC_$_CATEGORY_IGListAdapter_$_DebugDescription
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListAdapter+DebugDescription.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListAdapter+DebugDescription.m
 Source/IGListKit/Internal/IGListAdapter+DebugDescription.m
 -[IGListBatchUpdateData(DebugDescription) debugDescriptionLines]
 __OBJC_$_CATEGORY_INSTANCE_METHODS_IGListBatchUpdateData_$_DebugDescription
 __OBJC_$_CATEGORY_IGListBatchUpdateData_$_DebugDescription
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListBatchUpdateData+DebugDescription.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/IGListBatchUpdateData+DebugDescription.m
 Source/IGListKit/Internal/IGListBatchUpdateData+DebugDescription.m
 +[UICollectionViewLayout(InteractiveReordering) load]
 ___53+[UICollectionViewLayout(InteractiveReordering) load]_block_invoke
@@ -1525,7 +1525,7 @@ __OBJC_$_CATEGORY_INSTANCE_METHODS_UICollectionViewLayout_$_InteractiveReorderin
 __OBJC_$_CATEGORY_CLASS_METHODS_UICollectionViewLayout_$_InteractiveReordering
 __OBJC_$_CATEGORY_UICollectionViewLayout_$_InteractiveReordering
 _OBJC_LABEL_NONLAZY_CATEGORY_$
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/UICollectionViewLayout+InteractiveReordering.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListKit/Internal/UICollectionViewLayout+InteractiveReordering.m
 __79-[UICollectionViewLayout(InteractiveReordering) ig_cleanupInvalidationContext:]_block_invoke.73
 Source/IGListKit/Internal/UICollectionViewLayout+InteractiveReordering.m
 __79-[UICollectionViewLayout(InteractiveReordering) ig_cleanupInvalidationContext:]_block_invoke.65

@@ -24,6 +24,16 @@
 		9EDC04F4244BB8AC00F17598 /* home.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDC04EF244BB8AB00F17598 /* home.svg */; };
 		9EDC04F5244BB8AC00F17598 /* earthquake.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDC04F0244BB8AC00F17598 /* earthquake.svg */; };
 		9EDC04F6244BB8AC00F17598 /* heat.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDC04F1244BB8AC00F17598 /* heat.svg */; };
+		DF9AA439244C101F00685E69 /* Nameable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA438244C101F00685E69 /* Nameable.swift */; };
+		DF9AA43C244C105700685E69 /* Contactable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA43B244C105700685E69 /* Contactable.swift */; };
+		DF9AA43F244C109700685E69 /* PersonlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA43E244C109700685E69 /* PersonlModel.swift */; };
+		DF9AA441244C10AD00685E69 /* FamilyConstructable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA440244C10AD00685E69 /* FamilyConstructable.swift */; };
+		DF9AA444244C10D600685E69 /* PetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA443244C10D600685E69 /* PetType.swift */; };
+		DF9AA446244C10ED00685E69 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA445244C10ED00685E69 /* PetModel.swift */; };
+		DF9AA448244C110600685E69 /* HouseHoldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA447244C110600685E69 /* HouseHoldModel.swift */; };
+		DF9AA44A244C112000685E69 /* DisasterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA449244C112000685E69 /* DisasterType.swift */; };
+		DF9AA44C244C113500685E69 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA44B244C113500685E69 /* TodoModel.swift */; };
+		DF9AA44E244C114500685E69 /* DisasterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA44D244C114500685E69 /* DisasterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +90,16 @@
 		9EDC04EF244BB8AB00F17598 /* home.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = home.svg; sourceTree = "<group>"; };
 		9EDC04F0244BB8AC00F17598 /* earthquake.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = earthquake.svg; sourceTree = "<group>"; };
 		9EDC04F1244BB8AC00F17598 /* heat.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heat.svg; sourceTree = "<group>"; };
+		DF9AA438244C101F00685E69 /* Nameable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nameable.swift; sourceTree = "<group>"; };
+		DF9AA43B244C105700685E69 /* Contactable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contactable.swift; sourceTree = "<group>"; };
+		DF9AA43E244C109700685E69 /* PersonlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonlModel.swift; sourceTree = "<group>"; };
+		DF9AA440244C10AD00685E69 /* FamilyConstructable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyConstructable.swift; sourceTree = "<group>"; };
+		DF9AA443244C10D600685E69 /* PetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetType.swift; sourceTree = "<group>"; };
+		DF9AA445244C10ED00685E69 /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		DF9AA447244C110600685E69 /* HouseHoldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseHoldModel.swift; sourceTree = "<group>"; };
+		DF9AA449244C112000685E69 /* DisasterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisasterType.swift; sourceTree = "<group>"; };
+		DF9AA44B244C113500685E69 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		DF9AA44D244C114500685E69 /* DisasterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisasterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +162,9 @@
 		9EB347A82443A2AE004A46A5 /* Preparedness */ = {
 			isa = PBXGroup;
 			children = (
+				DF9AA442244C10C800685E69 /* Enum */,
+				DF9AA43D244C107A00685E69 /* Models */,
+				DF9AA43A244C104200685E69 /* Protocols */,
 				9EDC04EB244BB88D00F17598 /* Assets */,
 				9EB347A92443A2AE004A46A5 /* AppDelegate.swift */,
 				9EB347AB2443A2AE004A46A5 /* SceneDelegate.swift */,
@@ -192,6 +215,37 @@
 				9EDC04ED244BB8AB00F17598 /* shield.svg */,
 			);
 			path = Icons;
+			sourceTree = "<group>";
+		};
+		DF9AA43A244C104200685E69 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DF9AA438244C101F00685E69 /* Nameable.swift */,
+				DF9AA43B244C105700685E69 /* Contactable.swift */,
+				DF9AA440244C10AD00685E69 /* FamilyConstructable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DF9AA43D244C107A00685E69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF9AA43E244C109700685E69 /* PersonlModel.swift */,
+				DF9AA445244C10ED00685E69 /* PetModel.swift */,
+				DF9AA447244C110600685E69 /* HouseHoldModel.swift */,
+				DF9AA44B244C113500685E69 /* TodoModel.swift */,
+				DF9AA44D244C114500685E69 /* DisasterModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF9AA442244C10C800685E69 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				DF9AA443244C10D600685E69 /* PetType.swift */,
+				DF9AA449244C112000685E69 /* DisasterType.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,9 +411,19 @@
 				9EB347B02443A2AE004A46A5 /* SecondViewController.swift in Sources */,
 				9EB347AE2443A2AE004A46A5 /* FirstViewController.swift in Sources */,
 				9EBFCD062443CED800461E48 /* MainTabBarController.swift in Sources */,
+				DF9AA44C244C113500685E69 /* TodoModel.swift in Sources */,
+				DF9AA444244C10D600685E69 /* PetType.swift in Sources */,
 				9EB347AA2443A2AE004A46A5 /* AppDelegate.swift in Sources */,
+				DF9AA43C244C105700685E69 /* Contactable.swift in Sources */,
+				DF9AA43F244C109700685E69 /* PersonlModel.swift in Sources */,
 				9EB347AC2443A2AE004A46A5 /* SceneDelegate.swift in Sources */,
+				DF9AA44A244C112000685E69 /* DisasterType.swift in Sources */,
+				DF9AA439244C101F00685E69 /* Nameable.swift in Sources */,
 				9E51B7B92443E74400E6DC32 /* SettingsViewController.swift in Sources */,
+				DF9AA441244C10AD00685E69 /* FamilyConstructable.swift in Sources */,
+				DF9AA446244C10ED00685E69 /* PetModel.swift in Sources */,
+				DF9AA44E244C114500685E69 /* DisasterModel.swift in Sources */,
+				DF9AA448244C110600685E69 /* HouseHoldModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

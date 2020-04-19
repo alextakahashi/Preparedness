@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
 Apple clang version 11.0.3 (clang-1103.0.32.29)
-/Users/sebastian/Library/Caches/org.carthage.CarthageKit/DerivedData/11.4_11E146/IGListKit/4.0.0/Build/Intermediates.noindex/ArchiveIntermediates/IGListKit/IntermediateBuildFilesPath/IGListKit.build/Release-iphoneos/IGListDiffKit.build/DerivedSources/IGListDiffKit_vers.c
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit
+/Users/rosachen/Library/Caches/org.carthage.CarthageKit/DerivedData/11.4_11E146/IGListKit/4.0.0/Build/Intermediates.noindex/ArchiveIntermediates/IGListKit/IntermediateBuildFilesPath/IGListKit.build/Release-iphoneos/IGListDiffKit.build/DerivedSources/IGListDiffKit_vers.c
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit
 -[NSString(IGListDiffable) diffIdentifier]
 -[NSString(IGListDiffable) isEqualToDiffableObject:]
 _OBJC_SELECTOR_REFERENCES_
@@ -13,7 +13,7 @@ __OBJC_LABEL_PROTOCOL_$_IGListDiffable
 __OBJC_CATEGORY_PROTOCOLS_$_NSString_$_IGListDiffable
 __OBJC_$_CATEGORY_NSString_$_IGListDiffable
 _OBJC_LABEL_CATEGORY_$
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/NSString+IGListDiffable.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/NSString+IGListDiffable.m
 Source/IGListDiffKit/NSString+IGListDiffable.m
 -[IGListMoveIndex initWithFrom:to:]
 -[IGListMoveIndex hash]
@@ -38,7 +38,7 @@ __OBJC_$_INSTANCE_VARIABLES_IGListMoveIndex
 __OBJC_$_PROP_LIST_IGListMoveIndex
 __OBJC_CLASS_RO_$_IGListMoveIndex
 _OBJC_LABEL_CLASS_$
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListMoveIndex.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListMoveIndex.m
 Source/IGListDiffKit/IGListMoveIndex.h
 Source/IGListDiffKit/IGListMoveIndex.m
 -[IGListIndexSetResult initWithInserts:deletes:updates:moves:oldIndexMap:newIndexMap:]
@@ -84,7 +84,7 @@ _OBJC_IVAR_$_IGListIndexSetResult._moves
 __OBJC_$_INSTANCE_VARIABLES_IGListIndexSetResult
 __OBJC_$_PROP_LIST_IGListIndexSetResult
 __OBJC_CLASS_RO_$_IGListIndexSetResult
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListIndexSetResult.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListIndexSetResult.m
 Source/IGListDiffKit/IGListIndexSetResult.m
 Source/IGListDiffKit/IGListIndexSetResult.h
 +[IGListBatchUpdateData _cleanIndexPathsWithMap:moves:indexPaths:deletes:inserts:]
@@ -130,7 +130,7 @@ _OBJC_IVAR_$_IGListBatchUpdateData._moveIndexPaths
 __OBJC_$_INSTANCE_VARIABLES_IGListBatchUpdateData
 __OBJC_$_PROP_LIST_IGListBatchUpdateData
 __OBJC_CLASS_RO_$_IGListBatchUpdateData
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListBatchUpdateData.mm
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListBatchUpdateData.mm
 find<long>
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__hash_table
 __hash_iterator
@@ -231,7 +231,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.24
 _OBJC_CLASSLIST_REFERENCES_$_.30
 ___block_descriptor_56_ea8_32s_e33_v32?0"<IGListDiffable>"8Q16^B24lu48l8
 _OBJC_SELECTOR_REFERENCES_.42
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListDiff.mm
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListDiff.mm
 destroy<std::__1::pair<const id<NSObject>, IGListEntry> >
 __destroy<std::__1::pair<const id<NSObject>, IGListEntry> >
 ~IGListEntry
@@ -347,7 +347,7 @@ _OBJC_IVAR_$_IGListMoveIndexPath._to
 __OBJC_$_INSTANCE_VARIABLES_IGListMoveIndexPath
 __OBJC_$_PROP_LIST_IGListMoveIndexPath
 __OBJC_CLASS_RO_$_IGListMoveIndexPath
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListMoveIndexPath.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListMoveIndexPath.m
 Source/IGListDiffKit/IGListMoveIndexPath.m
 Source/IGListDiffKit/IGListMoveIndexPath.h
 -[IGListIndexPathResult initWithInserts:deletes:updates:moves:oldIndexPathMap:newIndexPathMap:]
@@ -375,7 +375,7 @@ _OBJC_IVAR_$_IGListIndexPathResult._moves
 __OBJC_$_INSTANCE_VARIABLES_IGListIndexPathResult
 __OBJC_$_PROP_LIST_IGListIndexPathResult
 __OBJC_CLASS_RO_$_IGListIndexPathResult
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListIndexPathResult.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/IGListIndexPathResult.m
 Source/IGListDiffKit/IGListIndexPathResult.m
 Source/IGListDiffKit/IGListIndexPathResult.h
 -[NSNumber(IGListDiffable) diffIdentifier]
@@ -383,5 +383,5 @@ Source/IGListDiffKit/IGListIndexPathResult.h
 __OBJC_$_CATEGORY_INSTANCE_METHODS_NSNumber_$_IGListDiffable
 __OBJC_CATEGORY_PROTOCOLS_$_NSNumber_$_IGListDiffable
 __OBJC_$_CATEGORY_NSNumber_$_IGListDiffable
-/Users/sebastian/Documents/Repos/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/NSNumber+IGListDiffable.m
+/Users/rosachen/Documents/Preparedness/Preparedness/Carthage/Checkouts/IGListKit/Source/IGListDiffKit/NSNumber+IGListDiffable.m
 Source/IGListDiffKit/NSNumber+IGListDiffable.m
