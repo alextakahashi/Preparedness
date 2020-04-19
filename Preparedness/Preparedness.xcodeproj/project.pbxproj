@@ -34,6 +34,8 @@
 		DF9AA44A244C112000685E69 /* DisasterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA449244C112000685E69 /* DisasterType.swift */; };
 		DF9AA44C244C113500685E69 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA44B244C113500685E69 /* TodoModel.swift */; };
 		DF9AA44E244C114500685E69 /* DisasterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA44D244C114500685E69 /* DisasterModel.swift */; };
+		DF9AA450244C1A0200685E69 /* HouseholdSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA44F244C1A0200685E69 /* HouseholdSectionController.swift */; };
+		DF9AA454244C1AD800685E69 /* HouseholdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AA453244C1AD800685E69 /* HouseholdCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,8 @@
 		DF9AA449244C112000685E69 /* DisasterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisasterType.swift; sourceTree = "<group>"; };
 		DF9AA44B244C113500685E69 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 		DF9AA44D244C114500685E69 /* DisasterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisasterModel.swift; sourceTree = "<group>"; };
+		DF9AA44F244C1A0200685E69 /* HouseholdSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseholdSectionController.swift; sourceTree = "<group>"; };
+		DF9AA453244C1AD800685E69 /* HouseholdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseholdCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,12 +166,14 @@
 		9EB347A82443A2AE004A46A5 /* Preparedness */ = {
 			isa = PBXGroup;
 			children = (
+				DF9AA452244C1AA900685E69 /* Cells */,
+				DF9AA451244C1A2600685E69 /* SectionControllers */,
 				DF9AA442244C10C800685E69 /* Enum */,
 				DF9AA43D244C107A00685E69 /* Models */,
 				DF9AA43A244C104200685E69 /* Protocols */,
 				9EDC04EB244BB88D00F17598 /* Assets */,
-				9EB347A92443A2AE004A46A5 /* AppDelegate.swift */,
 				9EB347AB2443A2AE004A46A5 /* SceneDelegate.swift */,
+				9EB347A92443A2AE004A46A5 /* AppDelegate.swift */,
 				9EB347AD2443A2AE004A46A5 /* FirstViewController.swift */,
 				9EB347AF2443A2AE004A46A5 /* SecondViewController.swift */,
 				9E51B7B82443E74400E6DC32 /* SettingsViewController.swift */,
@@ -246,6 +252,22 @@
 				DF9AA449244C112000685E69 /* DisasterType.swift */,
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		DF9AA451244C1A2600685E69 /* SectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF9AA44F244C1A0200685E69 /* HouseholdSectionController.swift */,
+			);
+			path = SectionControllers;
+			sourceTree = "<group>";
+		};
+		DF9AA452244C1AA900685E69 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DF9AA453244C1AD800685E69 /* HouseholdCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9AA454244C1AD800685E69 /* HouseholdCollectionViewCell.swift in Sources */,
 				9EB347B02443A2AE004A46A5 /* SecondViewController.swift in Sources */,
 				9EB347AE2443A2AE004A46A5 /* FirstViewController.swift in Sources */,
 				9EBFCD062443CED800461E48 /* MainTabBarController.swift in Sources */,
@@ -417,6 +440,7 @@
 				DF9AA43C244C105700685E69 /* Contactable.swift in Sources */,
 				DF9AA43F244C109700685E69 /* PersonlModel.swift in Sources */,
 				9EB347AC2443A2AE004A46A5 /* SceneDelegate.swift in Sources */,
+				DF9AA450244C1A0200685E69 /* HouseholdSectionController.swift in Sources */,
 				DF9AA44A244C112000685E69 /* DisasterType.swift in Sources */,
 				DF9AA439244C101F00685E69 /* Nameable.swift in Sources */,
 				9E51B7B92443E74400E6DC32 /* SettingsViewController.swift in Sources */,
